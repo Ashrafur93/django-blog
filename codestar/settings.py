@@ -34,8 +34,10 @@ ALLOWED_HOSTS = [
     "8000-ajgreaves-blog-lesson-pl-lfv6kgfdws.us2.codeanyapp.com",
     ".herokuapp.com",
     "127.0.0.1",
-    "localhost"
+    "localhost",
+    '8000-ashrafur93-djangoblog-952rbvuo70j.ws-eu117.gitpod.io'
 ]
+
 
 
 # Application definition
@@ -97,7 +99,8 @@ DATABASES = {
 
 CSRF_TRUSTED_ORIGINS = [
     "https://*.codeinstitute-ide.net/",
-    "https://*.herokuapp.com"
+    "https://*.herokuapp.com",
+    'https://8000-ashrafur93-djangoblog-952rbvuo70j.ws-eu117.gitpod.io'
 ]
 
 print(DATABASES)
